@@ -1,0 +1,66 @@
+body{
+	background-image: url("../img/ninja-fundo.jpg");
+	background-attachment: fixed;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+img.logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 200px;
+    width: auto;
+	--height: auto;
+}
+
+img.imagem,iframe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	white-space: nowrap;
+}
+
+a[href*="http://"]{
+	background-image: url("../img/globo.png");
+	background-repeat: no-repeat;
+	padding-left: 17px;
+}
+
+strong.num{
+	font-size: 20px;
+	background-color: purple;
+	color: white;
+}
+
+em.passo{
+	font-size: 18px;
+}
+
+em.nota{
+	opacity: 0.7;
+}
+
+h1,h2{
+	font-family: "Cambria";
+	font-size: 32px;
+	color: purple;
+}
+
+a:link {
+	color: blue;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: purple;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: red;
+}
+
+a:active {
+	color: yellow; 
+}
